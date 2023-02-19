@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sportswebdbserver/databases/SportsWebDB",
+      "type": "mssql.azure",
+      "connectionId": "connection1",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
